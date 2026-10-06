@@ -1,7 +1,4 @@
-# ============================================
 # LAB 2 - BÀI 5: Pipeline Tăng cường Dữ liệu Ảnh
-# (Data Augmentation) với Tọa độ Đồng nhất 3x3
-# ============================================
 import math
 
 

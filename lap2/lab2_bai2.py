@@ -1,8 +1,4 @@
-# ============================================
 # LAB 2 - BÀI 2: Kiểm tra Độc lập tuyến tính
-# trong không gian 2D
-# ============================================
-
 def is_linearly_dependent_2d(v1, v2):
     """
     Kiểm tra tính độc lập / phụ thuộc tuyến tính của 2 vector 2D.

@@ -1,8 +1,4 @@
-# ============================================
 # LAB 2 - BÀI 1: Tính Tổ hợp Tuyến tính
-# và Tọa độ theo Cơ sở mới
-# ============================================
-
 def compute_linear_combination(B, c):
     """
     Tính tổ hợp tuyến tính: v = c1*b1 + c2*b2 + ... + cn*bn

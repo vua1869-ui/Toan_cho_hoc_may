@@ -1,8 +1,4 @@
-# ============================================
 # LAB 2 - BÀI 3: Tìm Hạt nhân Ker(f) và Số chiều
-# Nullity qua Hệ thuần nhất A·x = 0 (f: R^3 -> R^2)
-# ============================================
-
 def rref(A):
     """
     Đưa ma trận A về dạng bậc thang rút gọn (RREF)

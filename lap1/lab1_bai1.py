@@ -1,7 +1,4 @@
-# ============================================
 # LAB 1 - BÀI 1: KHỞI TẠO VÀ CHUYỂN VỊ MA TRẬN
-# ============================================
-
 def transpose_matrix(A):
     """Nhận ma trận A (m x n), trả về ma trận chuyển vị A^T (n x m)."""
     # Bước 1: Xác định số hàng và số cột của ma trận gốc
