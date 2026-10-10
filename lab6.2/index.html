@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6.2 - CSS Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= MÀN HÌNH 1: #FEATURES (Ứng dụng Grid 4 cột) ================= -->
+    <section id="features">
+        <div class="feature_item">
+            <h3>MADE WITH LOVE</h3>
+            <p>Our tea is made with love, from the collection of the leaves to the brewing.</p>
+        </div>
+        <div class="feature_item highlight">
+            <h3>RELAXATION</h3>
+            <p>Set aside anxiety and relax after a hard day with a cup of hot tea in your hands.</p>
+        </div>
+        <div class="feature_item">
+            <h3>ENERGY</h3>
+            <p>Our tea will energize you with vitamins and invigorate the rest of the day.</p>
+        </div>
+        <div class="feature_item">
+            <h3>FAMILY RECIPE</h3>
+            <p>All our recipes are passed down from generation to generation for a long time.</p>
+        </div>
+    </section>
+
+    <!-- ================= MÀN HÌNH 2: #ABOUT (Ứng dụng Grid 2 cột & Căn chỉnh) ================= -->
+    <section id="about">
+        <div class="about_left">
+            <!-- Ảnh ấm trà nghệ thuật giống màn hình 2 -->
+            <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=800&auto=format&fit=crop" alt="Tea Station" class="about_img">
+        </div>
+        <div class="about_right">
+            <p class="about-subtitle">About Our</p>
+            <h2>TEA STATION</h2>
+            <p>Once upon a time we only had a couple of teapots and enjoyed tea only with our family. Over time, we were able to afford to buy a small tea plantation.</p>
+            <p>Now we have a whole teahouse and we delight many people with delicious and hot tea. We serve black long tea, relaxing green and jasmine tea, tea with spices and many others.</p>
+            <a href="#" class="btn-learn">LEARN MORE</a>
+        </div>
+    </section>
+
+    <!-- ================= MÀN HÌNH 3: #PRODUCTS ================= -->
+    <section id="products">
+        <div class="product-info">
+            <p class="sub">Check Out</p>
+            <h2>OUR PRODUCTS</h2>
+            <p>Our assortment includes long tea, relaxing and invigorating green tea with spices, lemon juice, jasmine, cinnamon and anise, milk tea and many others.</p>
+            <a href="#" class="btn-inv">INVENTORY</a>
+        </div>
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?q=80&w=600&auto=format&fit=crop" alt="Black Long Tea">
+            <h3>BLACK LONG TEA</h3>
+            <p>$9.99</p>
+        </div>
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1597481499750-3e6b22637e12?q=80&w=600&auto=format&fit=crop" alt="Green Tea">
+            <h3>GREEN TEA WITH JASMINE</h3>
+            <p>$6.99</p>
+        </div>
+    </section>
+
+    <!-- ================= MÀN HÌNH 4: #SERVICES ================= -->
+    <section id="services">
+        <div class="service-header">
+            <p class="sub">Explore</p>
+            <h2>OUR SERVICES</h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=600&auto=format&fit=crop" alt="Custom Recipe">
+                <h3>Custom Recipe Service</h3>
+                <a href="#" class="btn-read">Read More</a>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1526367460886-1c9b5f40391d?q=80&w=600&auto=format&fit=crop" alt="Home Delivery">
+                <h3>Home Delivery Service</h3>
+                <a href="#" class="btn-read">Read More</a>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=600&auto=format&fit=crop" alt="Tea Aging">
+                <h3>Tea Aging Service</h3>
+                <a href="#" class="btn-read">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= MÀN HÌNH 5: #CONTACT ================= -->
+    <section id="contact">
+        <div class="contact-info">
+            <div class="info-group">
+                <p class="label">address</p>
+                <p>523 N FAIRFAX AVE<br>LOS ANGELES, CA 90048</p>
+            </div>
+            <div class="info-group">
+                <p class="label">email</p>
+                <p>EMAIL@EMAIL.COM</p>
+            </div>
+            <div class="info-group">
+                <p class="label">telephone</p>
+                <p>+123 456 789</p>
+            </div>
+        </div>
+        <div class="contact-form-container">
+            <h3>contact us</h3>
+            <form>
+                <input type="text" placeholder="NAME">
+                <input type="email" placeholder="EMAIL">
+                <textarea placeholder="MESSAGE"></textarea>
+                <button type="submit">SUBMIT HERE</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

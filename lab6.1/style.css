@@ -1,0 +1,116 @@
+/* ================= CẤU HÌNH CHUNG ================= */
+:root {
+    --mainTransition: all 0.3s linear;
+    --primaryColor: #7b8b42;
+    --darkColor: #2b1d11;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* ================= MÀN HÌNH 1: HEADER (Đúng theo hướng dẫn Lab 6.1) ================= */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                      url('https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=1200&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #ffffff;
+    color: #333333;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header-banner .header-subtitle {
+    font-style: italic;
+    font-size: 20px;
+    color: #d4e1a5;
+    margin-bottom: 15px;
+}
+
+.header-banner .header-title {
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.header-banner .header-btn-explore {
+    display: inline-block;
+    background-color: var(--primaryColor);
+    color: #ffffff;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+
+/* ================= MÀN HÌNH 2: FEATURES & FEATURE_ITEM (Đúng theo hướng dẫn Lab 6.1) ================= */
+.features {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.feature_item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    transition: var(--mainTransition);
+    background: #ffffff;
+    padding: 40px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+}
+
+.feature_item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Khối RELAXATION nổi bật với màu xanh đặc trưng giống đề bài */
+.feature_item-highlight {
+    background-color: var(--primaryColor);
+    color: #ffffff;
+    border-color: #6a7938;
+}
+
+.feature-title {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.feature-text {
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}

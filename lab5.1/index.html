@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5.1 - CSS Display & Position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= BÀI 1: ỨNG DỤNG DISPLAY ================= -->
+    <section class="bai1-container">
+        <div class="content">
+            <h2>Section Title</h2>
+            <div class="underline"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nulla, reprehenderit sapiente aperiam nesciunt ab officia pariatur? Modi necessitatibus at, nostrum repellendus voluptate eveniet ad, pariatur iusto voluptates natus adipisci!</p>
+        </div>
+        <div class="bottom-background"></div>
+    </section>
+
+    <!-- ================= BÀI 2: ỨNG DỤNG POSITION ================= -->
+    <section class="bai2-container">
+        <div class="header-kofi">KOFI</div>
+        <div class="hero-section">
+            <div class="center-box">
+                <h2>Coffee Market</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quidem possimus magni labore accusamus hic inventore provident, beatae iure ducimus?</p>
+                <button>EXPLORE MORE</button>
+            </div>
+        </div>
+        <div class="red-footer"></div>
+    </section>
+
+    <!-- ================= BÀI 3 & BÀI 3*: MENU VỚI CHECKED PSEUDO ================= -->
+    <section class="bai3-container">
+        <!-- Checkbox ẩn đóng vai trò công tắc -->
+        <input type="checkbox" id="menu-toggle">
+
+        <!-- Nút bật/tắt chứa Icon đóng mở -->
+        <label for="menu-toggle" class="menu-button">
+            <span class="icon-open">☰</span>
+            <span class="icon-close">✕</span>
+        </label>
+
+        <!-- Thanh Menu ẩn/hiện (Nav) -->
+        <nav class="nav">
+            <ul>
+                <li><a href="#" class="active">FEATURES</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACTS</a></li>
+            </ul>
+        </nav>
+
+        <!-- Phần giao diện chính bài 3 -->
+        <div class="tea-section">
+            <div class="tea-content">
+                <p class="subtitle">Over one hundred flavors of tea</p>
+                <h1>SPECIALLY CRAFTED TEA</h1>
+                <button class="btn-explore">EXPLORE</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
